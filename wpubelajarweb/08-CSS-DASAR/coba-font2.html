@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+
+       @font-face {
+        font-family: 'Lobster';
+        src: url('font/LobsterTwo-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+       }
+       
+        h1 {
+            color: crimson;
+            font-size: 60px;
+            text-align: center;
+            font-family: "Bitcount Prop Double", sans-serif;
+            font-weight: 300;
+        }
+
+        p {
+            color: navy;
+            text-align: center;
+            font-size: 30px;
+            font-family: lora, arial, Helvetica, sans-serif;
+        }
+        
+        .font-Lobster{
+            font-family: 'Lobster', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Word</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit explicabo illum pariatur, dolore quos consequatur porro cumque? Non, quas quia!</p>
+   <p class="font-Lobster">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non qui, repellendus dolorem harum fugiat velit delectus enim voluptates dolor ea architecto suscipit. Quos quisquam suscipit veritatis dolor ullam et!
+   </p>
+</body>
+</html>
